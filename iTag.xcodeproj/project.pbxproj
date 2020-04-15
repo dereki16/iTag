@@ -17,6 +17,10 @@
 		18068681243E550C00EEE330 /* iTagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18068680243E550C00EEE330 /* iTagUITests.swift */; };
 		18068693243E88CE00EEE330 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18068692243E88CE00EEE330 /* LoginViewController.swift */; };
 		18068695243E88D700EEE330 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18068694243E88D700EEE330 /* FeedViewController.swift */; };
+		186D6F592446BB3B006B7BC5 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D6F582446BB3B006B7BC5 /* PlayerViewController.swift */; };
+		186D6F5B2446C137006B7BC5 /* NotifsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D6F5A2446C137006B7BC5 /* NotifsViewController.swift */; };
+		186D6F5D2447850F006B7BC5 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D6F5C2447850F006B7BC5 /* PlayerCell.swift */; };
+		186D6F5F24479D8A006B7BC5 /* NotifsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D6F5E24479D8A006B7BC5 /* NotifsCell.swift */; };
 		1874B2492442ABED0085D0FB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874B2482442ABED0085D0FB /* MapViewController.swift */; };
 		354D339F8922E1BAF98BE671 /* Pods_iTagTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A327FCF175A550B8EDEF4849 /* Pods_iTagTests.framework */; };
 		4C8BFD7096F0ACB7ADB480DF /* Pods_iTag_iTagUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8469204664BEA23DEF93AD /* Pods_iTag_iTagUITests.framework */; };
@@ -56,6 +60,10 @@
 		18068682243E550C00EEE330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18068692243E88CE00EEE330 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		18068694243E88D700EEE330 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		186D6F582446BB3B006B7BC5 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		186D6F5A2446C137006B7BC5 /* NotifsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifsViewController.swift; sourceTree = "<group>"; };
+		186D6F5C2447850F006B7BC5 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		186D6F5E24479D8A006B7BC5 /* NotifsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifsCell.swift; sourceTree = "<group>"; };
 		1874B2482442ABED0085D0FB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5FB2441DBC720659383CEA49 /* Pods_iTag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D9418D41C4A685F3CF7350 /* Pods-iTagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTagTests.release.xcconfig"; path = "Target Support Files/Pods-iTagTests/Pods-iTagTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +137,10 @@
 				18068692243E88CE00EEE330 /* LoginViewController.swift */,
 				18068694243E88D700EEE330 /* FeedViewController.swift */,
 				1874B2482442ABED0085D0FB /* MapViewController.swift */,
+				186D6F582446BB3B006B7BC5 /* PlayerViewController.swift */,
+				186D6F5A2446C137006B7BC5 /* NotifsViewController.swift */,
+				186D6F5C2447850F006B7BC5 /* PlayerCell.swift */,
+				186D6F5E24479D8A006B7BC5 /* NotifsCell.swift */,
 			);
 			path = iTag;
 			sourceTree = "<group>";
@@ -413,11 +425,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186D6F5D2447850F006B7BC5 /* PlayerCell.swift in Sources */,
 				18068693243E88CE00EEE330 /* LoginViewController.swift in Sources */,
 				1806865F243E550A00EEE330 /* AppDelegate.swift in Sources */,
 				18068695243E88D700EEE330 /* FeedViewController.swift in Sources */,
 				1874B2492442ABED0085D0FB /* MapViewController.swift in Sources */,
+				186D6F5B2446C137006B7BC5 /* NotifsViewController.swift in Sources */,
 				18068663243E550A00EEE330 /* Experience.rcproject in Sources */,
+				186D6F592446BB3B006B7BC5 /* PlayerViewController.swift in Sources */,
+				186D6F5F24479D8A006B7BC5 /* NotifsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
